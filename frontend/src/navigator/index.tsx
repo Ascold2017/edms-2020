@@ -25,7 +25,8 @@ export default function RootNavigator() {
                     <Layout>
                         <Route path="/" exact><Dashboard /></Route>
                         <Route path="/documents"><MyDocuments /></Route>
-                        <Route path="/documents/arcived"><ArchivedDocuments /></Route>
+                        <Route path="/documents/archived"><ArchivedDocuments /></Route>
+                        <Route path="/documents/new"><DocumentEdit /></Route>
                         <Route path="/documents/:id/edit"><DocumentEdit /></Route>
                         <Route path="/documents/:id"><DocumentDetails /></Route>
                         <Route path="/provider"><ProviderDashboard /></Route>

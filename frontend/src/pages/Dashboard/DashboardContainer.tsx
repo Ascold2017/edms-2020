@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Dashboard from './components/Dashboard'
+import { Container } from '@material-ui/core'
 export default function DashboardContainer () {
-    return <h1>EDMS</h1>
+    return <Container><Dashboard /></Container>
 }

@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
         height: '100vh',
         overflow: 'auto',
-        padding: theme.spacing(3),
+        paddingTop: theme.spacing(3),
         marginLeft: drawerWidth
     },
     link: { textDecoration: 'none' },
