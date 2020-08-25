@@ -13,6 +13,8 @@ import DocumentEdit from '../pages/DocumentEdit/DocumentEditContainer'
 import DocumentDetails from '../pages/DocumentDetails/DocumentDetailsContainer'
 import ProviderDashboard from '../pages/provider/dashboard/DashboardContainer'
 import ProviderNewUser from '../pages/provider/NewUser/NewUserContainer'
+import Settings from '../pages/Settings/SettingsContainer'
+
 import Layout from "../components/Layout";
 export default function RootNavigator() {
     return (
@@ -28,7 +30,8 @@ export default function RootNavigator() {
                         <Route path="/documents/:id"><DocumentDetails /></Route>
                         <Route path="/provider"><ProviderDashboard /></Route>
                         <Route path="/provider/new-user"><ProviderNewUser /></Route>
-                   
+                        <Route path="/settings"><Settings /></Route>
+                        
                     </Layout>
                 </Route>
 
