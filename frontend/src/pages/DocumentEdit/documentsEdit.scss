@@ -1,0 +1,14 @@
+.document-edit {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: x-large;
+    }
+    &__input {
+        margin-bottom: 1rem!important;
+    }
+}

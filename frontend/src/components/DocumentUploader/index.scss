@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+.document-uploader {
+    display: block;
+    padding: 2rem;
+    border: 1px dashed $secondary-text;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 0.25rem
+}

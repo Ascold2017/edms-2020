@@ -1,9 +1,11 @@
 import { useDispatch } from 'react-redux'
 import { configureStore, combineReducers, getDefaultMiddleware } from '@reduxjs/toolkit'
 import Authorization from '../pages/Authorization/authorization.store'
+import DocumentEdit from '../pages/DocumentEdit/documentEdit.store'
 //
 const rootReducer = combineReducers({
-    Authorization
+    Authorization,
+    DocumentEdit
 })
 export type RootState = ReturnType<typeof rootReducer>
 

@@ -1,7 +1,8 @@
 import React from 'react'
-import { makeStyles, Avatar, Typography, } from '@material-ui/core'
+import { makeStyles, Typography, } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 import DocumentListItem from '../../../components/DocumentListItem'
+import { routes } from '../../../navigator'
 
 export default function Dashboard () {
     const classes = useStyles()
@@ -12,10 +13,10 @@ export default function Dashboard () {
     return <div className={classes.root}>
         <Typography variant="h2" component="h1" className={classes.title}>Welcome to EDMS!</Typography>
 
-            <Link to="/documents/new" className={classes.actionBarItem}>
+            <Link to={routes.NEW_DOCUMENT} className={classes.actionBarItem}>
                 <span>Create new document</span>
             </Link>
-            <Link to="/documents" className={classes.actionBarItem}>
+            <Link to={routes.MY_DOCUMENTS} className={classes.actionBarItem}>
                 <span>My documents</span>
             </Link>
 

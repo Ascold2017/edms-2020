@@ -4,6 +4,7 @@ import RootNavigator from './navigator'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Provider } from 'react-redux'
 import store from './store'
+import './styles/main.scss'
 
 ReactDOM.render(
   <React.StrictMode>
